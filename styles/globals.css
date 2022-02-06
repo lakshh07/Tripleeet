@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&family=Paytone+One&family=Montserrat:wght@400;500;700;800;900&family=Philosopher&display=swap");
 html,
 body {
   padding: 0;
@@ -13,4 +14,39 @@ a {
 
 * {
   box-sizing: border-box;
+}
+.btn-span {
+  padding-left: 0.5em;
+}
+.blur-box {
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(70px) !important ;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.fontRaleway {
+  font-family: "Raleway", sans-serif !important;
+  font-weight: 600;
+  font-size: 21px !important;
+}
+.mr {
+  margin-right: 10px;
+}
+
+.profile-bg {
+  border: 6px solid white !important;
+  border-radius: 50% !important;
+}
+
+.b-radius {
+  padding: 2em;
+  border-top-left-radius: 3px !important;
+  border-top-right-radius: 3px !important;
+  height: 300px;
+  width: 400px;
+}
+
+.gg {
+  background-color: brown !important;
+  color: blue !important;
 }
